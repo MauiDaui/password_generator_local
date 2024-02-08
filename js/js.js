@@ -100,7 +100,7 @@ let resultContainerBound = {
     top: resultContainer.getBoundingClientRect().top,
 };
 // This will update the position of the copy button based on mouse Position
-resultContainer.addEventListener("mousemove", e => {
+/*resultContainer.addEventListener("mousemove", e => {
     resultContainerBound = {
         left: resultContainer.getBoundingClientRect().left,
         top: resultContainer.getBoundingClientRect().top,
@@ -114,7 +114,7 @@ resultContainer.addEventListener("mousemove", e => {
         copyBtn.style.opacity = '0';
         copyBtn.style.pointerEvents = 'none';
     }
-});
+});*/
 window.addEventListener("resize", e => {
     resultContainerBound = {
         left: resultContainer.getBoundingClientRect().left,
