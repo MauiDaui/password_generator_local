@@ -2,6 +2,7 @@ pipeline{
     agent {
         docker {
             image 'node:21-alpine'
+	    args '-v /c/Users/mau99/.jenkins/workspace/JenkinsFilePipeline/:/workspace -w /workspace'
         }
     }
   stages{
